@@ -1,0 +1,28 @@
+[
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Justificativas de Líderes",
+        "weight": "Bolder",
+        "size": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "O arquivo está disponível no link abaixo:",
+        "wrap": true
+      },
+      {
+        "type": "TextBlock",
+        "text": "[Abrir arquivo](${file_link})",
+        "color": "Accent",
+        "weight": "Bolder",
+        "wrap": true,
+        "spacing": "Medium"
+      }
+    ]
+  }
+]
